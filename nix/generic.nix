@@ -4,7 +4,7 @@ with ocamlPackages;
 
 let
   oidcSources = builtins.fetchTarball
-    https://github.com/ulrikstrid/ocaml-oidc/archive/849769ce9fbf6735e2089b4d53a652ea98a42289.tar.gz;
+    https://github.com/ulrikstrid/ocaml-oidc/archive/47d00b5614820736413d1ba40fc078f5046fd648.tar.gz;
 in
 
 rec {
@@ -33,7 +33,7 @@ rec {
     propagatedBuildInputs = [
       uri
       lwt
-      oidcPackages.oidc
+      oidcPackages.oauth
       dream
       cohttp
       cohttp-lwt-unix
