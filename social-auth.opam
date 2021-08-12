@@ -5,7 +5,7 @@ synopsis: "Social Authentication for OCaml"
 description:
   "Implementations for different social providers, building ontop of oauth2 and OIDC"
 maintainer: ["ulrik.strid@outlook.com"]
-authors: ["Ulrik Strid" "Anton Bachin"]
+authors: ["Ulrik Strid"]
 license: "BSD3"
 homepage: "https://github.com/ulrikstrid/ocaml-social-auth"
 bug-reports: "https://github.com/ulrikstrid/ocaml-social-auth/issues"

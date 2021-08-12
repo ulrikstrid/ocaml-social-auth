@@ -2,11 +2,5 @@
  (name GithubAuth)
  (package social-auth)
  (public_name GithubAuth)
- (libraries
-  uri
-  lwt
-  oidc
-  dream
-  cohttp
-  cohttp-lwt-unix)
+ (libraries uri lwt oauth dream cohttp cohttp-lwt-unix)
  (modules GithubAuth))
